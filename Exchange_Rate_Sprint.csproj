@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="20220125-adventureworks.csv" />
+    <None Remove="20240120-adventureworks.csv" />
+    <None Remove="20240125-adventureworks.csv" />
+    <None Remove="adventureworks_ex.csv" />
+    <None Remove="adventureworks_example.csv" />
+    <None Remove="adventureworks_example2.csv" />
+    <None Remove="adventureworks_example3.csv" />
+    <None Remove="adventureworks_example4.csv" />
+    <None Remove="adventureworks_example88.csv" />
+  </ItemGroup>
+
+</Project>
